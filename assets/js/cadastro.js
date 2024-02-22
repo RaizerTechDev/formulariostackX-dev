@@ -13,7 +13,7 @@
   // Aqui são definidos os endereços relevantes para a API e para as páginas de erro e sucesso.
   const adresses = {
     api: "https://api.sheetmonkey.io/form/uM1Q7XZyF85NbpeU6wSwFB",
-    errorPage: "error-cadastrodev-rafarz76dev.netlify.app",
+    errorPage: "https://error-cadastrodev-rafarz76dev.netlify.app/",
     successPage: "https://github.com/RafaRz76Dev/formulariostackX-cadastro-dev/blob/master/success_page.html",
   };
 
