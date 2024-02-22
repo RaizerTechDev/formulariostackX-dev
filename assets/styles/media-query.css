@@ -1,0 +1,91 @@
+/* Responsividade */
+
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+/* Estilos para telas menores que 280px de largura */
+@media only screen and (max-width: 280px) {
+  body {
+    background-image: url(https://media.giphy.com/media/M9aaWID05hr1GwwhF4/giphy.gif); /* Define uma imagem de fundo para telas pequenas */
+  }
+
+  /* Ajustes específicos para telas menores que 280px */
+  .container h1 span {
+    margin-top: -25px; /* Ajusta o posicionamento do texto */
+  }
+
+  .developer-registration {
+    display: none; /* Oculta a foto */
+  }
+
+  button[onclick="registrationdev()"] {
+    margin-left: 10px; /* Ajusta a margem esquerda do botão de envio */
+  }
+}
+
+/* Estilos para telas menores que 375px de largura */
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url(https://media.giphy.com/media/M9aaWID05hr1GwwhF4/giphy.gif); /* Define uma imagem de fundo para telas pequenas */
+  }
+
+  /* Ajustes específicos para telas menores que 375px */
+  h1 {
+    margin-top: 250px; /* Ajusta o posicionamento do título */
+  }
+
+  .form-group {
+    margin-left: -0.5rem; /* Ajusta a margem esquerda dos grupos de formulário */
+  }
+
+  .form-group label {
+    margin-left: 0.3rem; /* Ajusta a margem esquerda das etiquetas dos campos de entrada */
+  }
+}
+
+/* Estilos para telas menores que 600px de largura */
+@media only screen and (max-width: 600px) {
+  /* Ajustes específicos para telas menores que 600px */
+  .container {
+    width: 90%; /* Reduz a largura do container para melhor se ajustar a telas pequenas */
+    padding: 10px; /* Adiciona algum espaço interno para o container */
+  }
+
+  .developer-registration {
+    margin-left: 10rem; /* Ajusta a margem esquerda da foto */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da foto */
+  }
+
+  label,
+  input,
+  select,
+  textarea {
+    width: 100%; /* Define a largura dos campos de entrada para 100% */
+    margin-left: -0.75rem; /* Remove a margem esquerda dos campos de entrada */
+  }
+
+  .form-group label {
+    margin-left: 0.3rem; /* Ajusta a margem esquerda das etiquetas dos campos de entrada */
+  }
+
+  button[type="submit"] {
+    width: 100%; /* Define a largura do botão de envio para 100% */
+    margin-left: 0; /* Remove a margem esquerda do botão de envio */
+  }
+}
+
+/* Estilos para telas entre 601px e 1024px de largura */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Ajustes específicos para telas entre 601px e 1024px */
+  .container {
+    width: 80%; /* Reduz a largura do container para telas médias */
+  }
+}

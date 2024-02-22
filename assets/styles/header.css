@@ -1,0 +1,113 @@
+/* Estilos Globais */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTFieDR2emlzaDY3azhhdTJzd2xvYW45NzZ1aGowMWNhZzJjeWlzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7AtHoQ9XWbpwLRxs0t/giphy.gif); /* Define uma imagem de fundo para o corpo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+  display: flex; /* Usa flexbox para alinhar os itens */
+  align-items: center; /* Alinha os itens verticalmente */
+  justify-content: center; /* Alinha os itens horizontalmente */
+  height: 100vh; /* Define a altura do cabeçalho para ocupar 100% da altura da tela */
+}
+
+/* Estilos para o container principal */
+.container {
+  background-image: url(https://media.giphy.com/media/M9aaWID05hr1GwwhF4/giphy.gif); /* Define uma imagem de fundo para o container */
+  width: 60%; /* Largura inicial do container */
+  max-width: 600px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 20px; /* Adiciona espaçamento interno ao container */
+  border-radius: 20px; /* Adiciona borda arredondada ao container */
+  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
+  box-shadow: 0 0 10px rgba(55, 55, 55, 0.452); /* Adiciona sombra ao container */
+}
+
+/* Estilos para o título h1 */
+h1 {
+  text-align: center; /* Alinha o texto centralmente */
+  color: #fff; /* Define a cor do texto como branco */
+  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
+}
+
+/* Estilos para o span */
+span {
+  color: #729be5; /* Define a cor do texto do span */
+  text-decoration: underline; /* Adiciona sublinhado ao texto do span */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estilos para a foto do desenvolvedor */
+.developer-registration {
+  width: 120px; /* Define a largura da imagem */
+  height: 90px; /* Define a altura da imagem */
+  margin-left: 230px; /* Define a margem esquerda da imagem */
+  cursor: pointer; /* Altera o cursor ao passar sobre a imagem */
+  padding: 20px 0; /* Adiciona espaçamento interno à imagem */
+}
+
+/* Estilos para o grupo de formulário */
+.form-group {
+  margin-bottom: 20px; /* Adiciona espaçamento inferior ao grupo de formulário */
+  color: #fff; /* Define a cor do texto no grupo de formulário como branco */
+}
+
+.name-language {
+  font-size: 20px; /* Tamanho da fonte */
+}
+
+/* Estilos para a etiqueta do formulário */
+label {
+  display: block; /* Define as etiquetas como elementos de bloco */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  margin-bottom: 5px; /* Adiciona espaçamento inferior à etiqueta */
+  margin-left: 55px; /* Define a margem esquerda da etiqueta */
+  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
+}
+
+/* Estilos para os campos de entrada, seleção e área de texto */
+input,
+select,
+textarea {
+  width: 80%; /* Define a largura dos campos de entrada, seleção e área de texto */
+  padding: 10px; /* Adiciona preenchimento aos campos */
+  border: 3px solid #ccc; /* Adiciona uma borda sólida aos campos */
+  border-radius: 15px; /* Adiciona um raio de borda aos campos */
+  margin-left: 40px; /* Define a margem esquerda dos campos */
+}
+
+/* Estilos para as opções de seleção */
+option[value] {
+  font-size: 18px; /* Define o tamanho da fonte das opções de seleção */
+}
+
+/* Estilos para os tipos de entrada e áreas de texto */
+input[type],
+textarea[name] {
+  font-size: 18px; /* Define o tamanho da fonte dos tipos de entrada e áreas de texto */
+}
+
+button[type=submit] {
+  background-color: #00ff73;
+  display: block;
+  width: 50%;
+  color: #211f1f;
+  border: none;
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-size: 12px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+/* Estilos para o botão de envio */
+button[type="submit"]:hover {
+  background-color: #45a09b;
+  color: brown;
+}
+
+.c-section-contact__button--animation {
+  width: 30px;  
+}
