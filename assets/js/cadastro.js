@@ -13,8 +13,8 @@
   // Aqui são definidos os endereços relevantes para a API e para as páginas de erro e sucesso.
   const adresses = {
     api: "https://api.sheetmonkey.io/form/uM1Q7XZyF85NbpeU6wSwFB",
-    errorPage: "http://127.0.0.1:5504/error_page.html",
-    successPage: "http://127.0.0.1:5504/success_page.html",
+    errorPage: "https://github.com/RafaRz76Dev/formulariostackX-cadastro-dev/blob/master/error_page.html",
+    successPage: "https://github.com/RafaRz76Dev/formulariostackX-cadastro-dev/blob/master/success_page.html",
   };
 
   // Aqui são definidos objetos que representam o botão de envio do formulário, tanto em forma de imagem de carregamento como de mensagem.
