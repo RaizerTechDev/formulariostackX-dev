@@ -13,8 +13,8 @@
   // Aqui são definidos os endereços relevantes para a API e para as páginas de erro e sucesso.
   const adresses = {
     api: "https://api.sheetmonkey.io/form/uM1Q7XZyF85NbpeU6wSwFB",
-    errorPage: "https://error-cadastrodev-rafarz76dev.netlify.app/",
-    successPage: "https://sucess-cadastrodev-rafarz76dev.netlify.app/success_page.html",
+    errorPage: "https://rafarz76dev.github.io/formulariostackX-cadastro-dev/error_page.html",
+    successPage: "https://rafarz76dev.github.io/formulariostackX-cadastro-dev/sucess_page.html",
   };
 
   // Aqui são definidos objetos que representam o botão de envio do formulário, tanto em forma de imagem de carregamento como de mensagem.
