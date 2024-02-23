@@ -14,7 +14,7 @@
   const adresses = {
     api: "https://api.sheetmonkey.io/form/uM1Q7XZyF85NbpeU6wSwFB",
     errorPage: "https://rafarz76dev.github.io/formulariostackX-cadastro-dev/error_page.html",
-    successPage: "https://rafarz76dev.github.io/formulariostackX-cadastro-dev/sucess_page.html",
+    successPage: "https://rafarz76dev.github.io/formulariostackX-cadastro-dev/success_page.html",
   };
 
   // Aqui são definidos objetos que representam o botão de envio do formulário, tanto em forma de imagem de carregamento como de mensagem.
