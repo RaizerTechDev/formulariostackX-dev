@@ -3,7 +3,7 @@
  <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45"> 
 
-[ ( Clique aqui e venha conhecer ```Formulário-Cadastro-Dev!!!```) ](https://formulario-cadastro-dev.netlify.app/)
+[ ( Clique aqui e venha conhecer ```Formulário-Cadastro-Dev!!!```) ](https://rafarz76dev.github.io/formulariostackX-cadastro-dev/index.html)
 
 <br>
 
@@ -97,7 +97,7 @@ Open With Live Server
 
 - Ou pelo `Deplopy Netlify`:
   
-[ ( Clique aqui e venha conhecer ```Formulário-Cadastro-Dev!!!```) ](https://formulario-cadastro-dev.netlify.app/)
+[ ( Clique aqui e venha conhecer ```Formulário-Cadastro-Dev!!!```) ](https://rafarz76dev.github.io/formulariostackX-cadastro-dev/index.html)
     
 <br>
 
