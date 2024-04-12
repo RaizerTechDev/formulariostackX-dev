@@ -97,5 +97,7 @@ button[type="submit"]:hover {
   background-color: #45a09b;
   color: brown;
 }
+.c-section-contact__button--animation {
+    width: 30px;
 
 
