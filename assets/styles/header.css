@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTFieDR2emlzaDY3azhhdTJzd2xvYW45NzZ1aGowMWNhZzJjeWlzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7AtHoQ9XWbpwLRxs0t/giphy.gif); /* Define uma imagem de fundo para o corpo */
+  background-size: cover; /* Garante que a imagem de fundo cubra toda a tela */
+  background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
 }
 
 /* Estilos para o cabeçalho */
@@ -16,7 +19,7 @@ header {
 /* Estilos para o container principal */
 .container {
   background-image: url(https://media.giphy.com/media/M9aaWID05hr1GwwhF4/giphy.gif); /* Define uma imagem de fundo para o container */
-  width: 60%; /* Largura inicial do container */
+  width: 70%; /* Largura inicial do container */
   max-width: 600px; /* Largura máxima do container */
   margin: 0 auto; /* Centraliza o container horizontalmente */
   padding: 20px; /* Adiciona espaçamento interno ao container */
@@ -29,7 +32,6 @@ header {
 h1 {
   text-align: center; /* Alinha o texto centralmente */
   color: #fff; /* Define a cor do texto como branco */
-  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
 }
 
 /* Estilos para o span */
@@ -41,11 +43,11 @@ span {
 
 /* Estilos para a foto do desenvolvedor */
 .developer-registration {
-  width: 120px; /* Define a largura da imagem */
-  height: 90px; /* Define a altura da imagem */
-  margin-left: 230px; /* Define a margem esquerda da imagem */
+  width: 15%; /* Define a largura da imagem */
+  height: auto; /* Define a altura da imagem */
+  display: block; /* Garante que a imagem permaneça em sua própria linha */
+  margin: 0 auto 20px; /* Centraliza a imagem horizontalmente e adiciona margem inferior */
   cursor: pointer; /* Altera o cursor ao passar sobre a imagem */
-  padding: 20px 0; /* Adiciona espaçamento interno à imagem */
 }
 
 /* Estilos para o grupo de formulário */
@@ -63,7 +65,6 @@ label {
   display: block; /* Define as etiquetas como elementos de bloco */
   font-weight: bold; /* Define a espessura da fonte como negrito */
   margin-bottom: 5px; /* Adiciona espaçamento inferior à etiqueta */
-  margin-left: 55px; /* Define a margem esquerda da etiqueta */
   font-family: "DM Sans", sans-serif; /* Define a família de fontes */
 }
 
@@ -71,45 +72,30 @@ label {
 input,
 select,
 textarea {
-  width: 80%; /* Define a largura dos campos de entrada, seleção e área de texto */
+  width: 100%; /* Define a largura dos campos de entrada, seleção e área de texto */
   padding: 10px; /* Adiciona preenchimento aos campos */
   border: 3px solid #ccc; /* Adiciona uma borda sólida aos campos */
   border-radius: 15px; /* Adiciona um raio de borda aos campos */
-  margin-left: 40px; /* Define a margem esquerda dos campos */
+  margin-left: -1rem; /* Remove a margem esquerda dos campos de entrada */
 }
 
-/* Estilos para as opções de seleção */
-option[value] {
-  font-size: 18px; /* Define o tamanho da fonte das opções de seleção */
-}
-
-/* Estilos para os tipos de entrada e áreas de texto */
-input[type],
-textarea[name] {
-  font-size: 18px; /* Define o tamanho da fonte dos tipos de entrada e áreas de texto */
-}
-
-button[type=submit] {
+/* Estilos para o botão de envio */
+button[type="submit"] {
   background-color: #00ff73;
-  display: block;
-  width: 50%;
   color: #211f1f;
   border: none;
   border-radius: 15px;
   padding: 12px 20px;
-  font-size: 12px;
-  margin-left: 140px;
+  font-size: 16px;
+  display: block; /* Garante que o botão ocupe toda a largura do container */
+  margin: 0 auto; /* Centraliza o botão horizontalmente */
   cursor: pointer;
 }
 
-/* Estilos para o botão de envio */
+/* Estilos para o botão de envio quando o mouse passa por cima */
 button[type="submit"]:hover {
   background-color: #45a09b;
   color: brown;
-}
-
-.c-section-contact__button--animation {
-  width: 30px;  
 }
 
 
