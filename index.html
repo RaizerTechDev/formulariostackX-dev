@@ -17,82 +17,76 @@
 	<link rel="stylesheet" href="./assets/styles/header.css">
 	<link rel="stylesheet" href="./assets/styles/media-query.css">
 
-	<!-- Inclui o estilo JavaScript -->
-	<script src="./assets/js/cadastro.js" defer></script>
-
 	<title>Interactive-Form</title>
 </head>
 
 <body>
+
 	<header>
-		<a class="c-success-page__a--hover" href="./index.html" title="Click to return to main page">Inicio</a>
-
 		<!-- Início do Container -->
-		<div class="container">
-			<!-- Título do formulário -->
-			<h1>Developer <span>Registration</span></h1>
-			<!-- Imagem do desenvolvedor -->
-			<img class="developer-registration"
-				src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXpreGh0aDJtemhmenI4bXJrOTg5NDJ4czY0NWdiaXBkYWVzY2EzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/zhYSVCirREeIZtONCI/giphy.gif"
-				alt="developer">
-			</a>
+	<div class="container">
+		<!-- Título do formulário -->
+		<h1>Developer <span>Registration</span></h1>
+		<!-- Imagem do desenvolvedor -->
+		<img class="developer-registration"
+			src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXpreGh0aDJtemhmenI4bXJrOTg5NDJ4czY0NWdiaXBkYWVzY2EzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/zhYSVCirREeIZtONCI/giphy.gif"
+			alt="developer">
+		</a>
 
-			<form autocomplete="off">
-				<!-- Campo Nome -->
-				<div class="form-group">
-					<label for="name">Name:</label>
-					<input type="text" name="name" id="name" js_data_name required />
-				</div>
+		<form action="https://formsubmit.co/ajax/rafarz76dev@gmail.com" method="POST" data-form>
+			<!-- Campo Nome -->
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" required />
+			</div>
 
-				<!-- Campo Telefone -->
-				<div class="form-group">
-					<label for="telephone">Phone/Mobile:</label>
-					<!-- Campo de entrada para telefone/celular -->
-					<input type="tel" id="telephone" name="telephone" js_data_telephone required>
-				</div>
+			<!-- Campo Telefone -->
+			<div class="form-group">
+				<label for="telephone">Phone/Mobile:</label>
+				<!-- Campo de entrada para telefone/celular -->
+				<input type="tel" id="telephone" name="telephone" required />
+			</div>
 
-				<!-- Campo Email -->
-				<div class="form-group">
-					<label for="email">Email:</label>
-					<input type="email" name="email" id="email" js_data_email required />
-				</div>
+			<!-- Campo Email -->
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" required />
+			</div>
 
-				<!-- Campo Linguagem -->
-				<div class="form-group">
-					<label for="language">Language:</label>
-					<!-- Seleção da linguagem de programação -->
-					<select class="name-language" name="language" id="languages" js_data_language required>
-						<!-- Opções de linguagem -->
-						<option value="javascript">JavaScript</option>
-						<option value="python">Python</option>
-						<option value="java">Java</option>
-						<option value="csharp">C#</option>
-					</select>
-				</div>
+			<!-- Campo Linguagem -->
+			<div class="form-group">
+				<label for="language">Language:</label>
+				<!-- Seleção da linguagem de programação -->
+				<select class="name-language" name="language" id="languages" required>
+					<!-- Opções de linguagem -->
+					<option value="javascript">JavaScript</option>
+					<option value="python">Python</option>
+					<option value="java">Java</option>
+					<option value="csharp">C#</option>
+				</select>
+			</div>
 
-				<!-- Campo Experiência -->
-				<div class="form-group">
-					<label for="experience">Experience:</label>
-					<!-- Barra deslizante para seleção da experiência -->
-					<input type="range" name="experience" id="experience" min="0" max="10" step="1" js_data_experience
-						required>
-				</div>
+			<!-- Campo Experiência -->
+			<div class="form-group">
+				<label for="experience">Experience:</label>
+				<!-- Barra deslizante para seleção da experiência -->
+				<input type="range" name="experience" id="experience" min="0" max="10" step="1" required />
+			</div>
 
-				<div class="form-group">
-					<!-- Campo de entrada para a Mensagem -->
-					<label for="message">Additional Message:</label>
+			<div class="form-group">
+				<!-- Campo de entrada para a Mensagem -->
+				<label for="message">Additional Message:</label>
+				<input type="text" name="message" id="message" required />
+			</div>
 
-					<input type="text" name="message" id="message" js_data_message required />
-				</div>
-
-				<div class="form-group">
-					<button class="button-submit" type="submit" title="Click to send message" js_data_form_button>
-						SEND MESSAGE
-					</button>
-				</div>
-			</form>
-		</div>
+			<div class="form-group">
+				<button type="submit" name="button" data-button>SEND MESSAGE</button>
+		</form>
+	</div>
 	</header>
-</body>
 
+	<!-- Inclui o estilo JavaScript -->
+	<script defer src="./assets/js/cadastro.js"></script>
+
+</body>
 </html>
