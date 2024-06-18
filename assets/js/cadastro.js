@@ -36,13 +36,14 @@ class FormSubmit {
       isValid = false;
       errorMessage += "Campo Nome é obrigatório.\n";
     }
-
-    if (!formObject.telephone || !/^\d+$/.test(formObject.telephone)) {
+   // Validação para o campo telefone (11 dígitos)
+    if (
+      !formObject.telephone ||
+      !/^\d{11}$/.test(formObject.telephone)
+    ) {
       isValid = false;
-      errorMessage +=
-        "Número de telefone é obrigatório e deve conter apenas números.\n";
+      errorMessage += "Campo Telefone é obrigatório e deve conter exatamente 11 dígitos.\n";
     }
-
     // Validação para o campo email
     if (
       !formObject.email ||
