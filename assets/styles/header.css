@@ -15,7 +15,7 @@ header {
 
 /* Estilos para o container principal */
 .container {
-  background-image: url(https://media.giphy.com/media/M9aaWID05hr1GwwhF4/giphy.gif); /* Define uma imagem de fundo para o container */
+  background-image: url('../images/imagem-fundo-container.png');
   width: 60%; /* Largura inicial do container */
   max-width: 600px; /* Largura máxima do container */
   margin: 0 auto; /* Centraliza o container horizontalmente */
@@ -89,7 +89,7 @@ textarea[name] {
   font-size: 18px; /* Define o tamanho da fonte dos tipos de entrada e áreas de texto */
 }
 
-button[type="submit"] {
+.formButton {
   background-color: #00ff73;
   display: block;
   width: 50%;
@@ -103,17 +103,17 @@ button[type="submit"] {
 }
 
 /* Estilos para o botão de envio */
-button[type="submit"]:hover {
+.formButton:hover {
   background-color: #45a09b;
   color: brown;
 }
 
-button:disabled {
+.formButton:disabled {
   cursor: not-allowed;
   background: #555b69;
 }
 
-.button--animation {
+.formButton--animation {
   width: 30px; /* Ajuste o tamanho conforme necessário */
   height: 30px; /* Ajuste o tamanho conforme necessário */
   vertical-align: middle; /* Centraliza verticalmente em relação ao texto */
