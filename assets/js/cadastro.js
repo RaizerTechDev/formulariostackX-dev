@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Função que adiciona a imagem de carregamento ao botão
   const renderButton = {
-    image: '<img class="formButton--animation" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWI0azVpZzY1YzJqMDlxNjFlZHNhNmE0aGQ3dnhic2h4eGY2dmdhdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7bu3XilJ5BOiSGic/giphy.gif" alt="Loading">',
+    image:
+      '<img class="formButton--animation" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWI0azVpZzY1YzJqMDlxNjFlZHNhNmE0aGQ3dnhic2h4eGY2dmdhdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7bu3XilJ5BOiSGic/giphy.gif" alt="Loading">',
     message: "SEND MESSAGE",
   };
 
@@ -66,10 +67,13 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       // Remove o spinner e volta ao texto original
       submitButton.innerHTML = renderButton.message;
-
-      // Redireciona para o WhatsApp
-      window.open(whatsappUrl, "_blank");
+      if (window.innerWidth > 768) {
+        // Para telas maiores que 768px, abrir em uma nova aba
+        window.open(whatsappUrl, "_blank");
+      } else {
+        // Para telas menores, abrir na mesma aba
+        window.open(whatsappUrl, "_self");
+      }
     }, 2000);
   });
 });
-
