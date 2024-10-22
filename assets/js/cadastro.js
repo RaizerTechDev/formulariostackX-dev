@@ -55,13 +55,13 @@ document.addEventListener("DOMContentLoaded", function () {
     submitButton.innerHTML = renderButton.image;
 
     // Monta a URL do WhatsApp
-    const whatsappUrl = `https://wa.me/5547999327137?text=Olá, estou retornando o Formulário-Dev:%0A
-      Meu Nome: ${form.name.value}%0A
-      Telefone: ${form.telephone.value}%0A
-      Email: ${form.email.value}%0A
-      Linguagem: ${form.language.value}%0A
-      Experience: ${form.experience.value}%0A
-      Mensagem Adicional: ${form.message.value}`;
+    const whatsappUrl = `https://wa.me/5547999327137?text=${encodeURIComponent(`Olá, estou retornando o Formulário-Dev:\n
+      Meu Nome: ${form.name.value}\n
+      Telefone: ${form.telephone.value}\n
+      Email: ${form.email.value}\n
+      Linguagem: ${form.language.value}\n
+      Experience: ${form.experience.value}\n
+      Mensagem Adicional: ${form.message.value}`)}`;
 
     // Simula um tempo de espera antes de esconder a imagem de carregamento
     setTimeout(() => {
